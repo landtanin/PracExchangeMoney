@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     
     @IBAction func exchangeButton(sender: AnyObject) {
         
-        
-        
+        douTHBmoney = getTHBmoney()
+        println("THBmoney = \(douTHBmoney)")
         
     } //exchange Button
     
@@ -35,8 +35,8 @@ class ViewController: UIViewController {
         var douReceiveTHBmoney:Double = NSString(string: strTHBmoney).doubleValue
         
         
-        
         return douReceiveTHBmoney
+        
     } //getTHBmoney
 
     
