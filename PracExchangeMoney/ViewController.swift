@@ -9,6 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var labelMoney: UILabel!
+    
+    @IBOutlet weak var textFieldMoney: UITextField!
+    
+    @IBAction func exchangeButton(sender: AnyObject) {
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,5 +29,5 @@ class ViewController: UIViewController {
     }
 
 
-}
+} //Main Class
 
