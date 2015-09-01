@@ -10,12 +10,22 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //Explicit
+    let doubleFactor:Double = 0.027902
+    var douTHBmoney:Double = 0
+    var douUSDmoney:Double = 0
+    
     @IBOutlet weak var labelMoney: UILabel!
     
     @IBOutlet weak var textFieldMoney: UITextField!
     
     @IBAction func exchangeButton(sender: AnyObject) {
-    }
+        
+        
+        
+        
+    } //exchange Button
+
     
 
     override func viewDidLoad() {
