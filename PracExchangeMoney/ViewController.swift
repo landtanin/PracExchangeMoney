@@ -25,6 +25,19 @@ class ViewController: UIViewController {
         
         
     } //exchange Button
+    
+    func getTHBmoney() ->Double{
+        
+        // receive value from textField
+        var strTHBmoney:String = textFieldMoney.text
+        
+        // transform received value to String
+        var douReceiveTHBmoney:Double = NSString(string: strTHBmoney).doubleValue
+        
+        
+        
+        return douReceiveTHBmoney
+    } //getTHBmoney
 
     
 
