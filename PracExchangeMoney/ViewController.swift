@@ -24,7 +24,16 @@ class ViewController: UIViewController {
         douTHBmoney = getTHBmoney()
         println("THBmoney = \(douTHBmoney)")
         
+        douUSDmoney = calculate(douTHBmoney)
+        
     } //exchange Button
+    
+    func calculate(thbMoney:Double)->Double{
+        
+        var douCalAnswer:Double = doubleFactor * thbMoney
+    
+        return douCalAnswer
+    } // calculate
     
     func getTHBmoney() ->Double{
         
